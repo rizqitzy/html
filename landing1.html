@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelatihan HTML - Landing Page Sederhana</title>
+</head>
+<body>
+    <!-- Header -->
+    <header style="background-color: #10c6f3; color: white; text-align: center; padding: 20px;">
+        <h1>Belajar Membuat Landing Page</h1>
+        <p>Pelatihan HTML</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav style="background-color: #333; padding: 10px;">
+        <a href="#home" style="color: white; margin: 0 10px; text-decoration: none;">Beranda</a>
+        <a href="#about" style="color: white; margin: 0 10px; text-decoration: none;">Tentang</a>
+        <a href="#services" style="color: white; margin: 0 10px; text-decoration: none;">Layanan</a>
+        <a href="#contact" style="color: white; margin: 0 10px; text-decoration: none;">Kontak</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" style="text-align: center; padding: 50px 20px; background-color: #f0f0f0;">
+        <h2>Selamat Datang di Pelatihan Kami</h2>
+        <p>Mari belajar membuat website sederhana dengan HTML dasar</p>
+        <button style="background-color: #2d6a4f; color: white; border: none; padding: 10px 20px; margin-top: 20px;">Mulai Belajar</button>
+    </section>
+
+    <!-- Tentang -->
+    <section id="about" style="padding: 30px 20px; text-align: center;">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah penyedia pelatihan pemrograman web untuk pemula yang ingin memulai karir di bidang teknologi.</p>
+        
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <div style="margin: 0 15px;">
+                <h3>Mudah Dipahami</h3>
+                <p>Materi disampaikan dengan bahasa yang sederhana dan mudah dimengerti</p>
+            </div>
+            <div style="margin: 0 15px;">
+                <h3>Praktik Langsung</h3>
+                <p>Belajar sambil langsung mempraktikkan kode</p>
+            </div>
+            <div style="margin: 0 15px;">
+                <h3>Berbayar</h3>
+                <p>Biayanya cukup terjangkau</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan -->
+    <section id="services" style="background-color: #f0f0f0; padding: 30px 20px; text-align: center;">
+        <h2>Layanan Kami</h2>
+        
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <img src="download.jpg" width="100%" height ="200">
+                <h3>HTML Dasar</h3>
+                <p>Belajar struktur dasar HTML</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>Form HTML</h3>
+                <form action=""></form>
+                <label for="Fname">Firs name</label><br>
+                <input type="text" id ="Fname" name="Fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id ="Fname" name="Fname" value=""><br><br>
+            </form>
+                <p>Membuat form interaktif</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>Tabel HTML</h3>
+                <style>
+                    table, th, td {
+                    border: 3px solid #000000;
+                    border-collapse: collapse;
+                    background-color: #b30cc2;
+                    }
+                </style>
+                <table align="center" width="100" height="100"> 
+
+                    <tr>
+                    
+                        <th style="color: #f0f0f0;">Contoh head table</th>
+                    </tr>
+                    </table>
+                    
+                <p>Mengatur data dalam tabel</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section style="padding: 30px 20px; text-align: center;">
+        <h2>Apa Kata Peserta</h2>
+        
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="margin: 10px; padding: 20px; border: 1px solid #ddd; width: 250px;">
+                <p>"Pelatihannya sangat mudah dipahami untuk pemula seperti saya."</p>
+                <p><strong>- Rizqi, Mahasiswa</strong></p>
+            </div>
+            <div style="margin: 10px; padding: 20px; border: 1px solid #ddd; width: 250px;">
+                <p>"Materinya praktis dan langsung bisa diaplikasikan."</p>
+                <p><strong>- Eca, Guru</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" style="background-color: #2d6a4f; color: white; padding: 30px 20px; text-align: center;">
+        <h2>Hubungi Kami</h2>
+        <p>Email: muhammad rizqi agung @pelatihanhtml.com</p>
+        <p>Telepon: (021) 123-4567</p>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #333; color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2025 Pelatihan HTML Dasar. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
